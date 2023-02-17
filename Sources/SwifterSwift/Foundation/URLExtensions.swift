@@ -9,7 +9,6 @@ import UIKit
 #endif
 
 // MARK: - Properties
-
 public extension URL {
     /// SwifterSwift: Dictionary of the URL's query parameters.
     var queryParameters: [String: String]? {

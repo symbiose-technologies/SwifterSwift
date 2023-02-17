@@ -4,8 +4,9 @@
 import AppKit
 
 // MARK: - Properties
+public typealias SwifterNSView = NSView
 
-public extension NSView {
+extension SwifterNSView {
     /// SwifterSwift: Border color of view; also inspectable from Storyboard.
     @IBInspectable
     var borderColor: NSColor? {
@@ -143,7 +144,7 @@ public extension NSView {
 
 // MARK: - Methods
 
-public extension NSView {
+extension SwifterNSView {
     /// SwifterSwift: Add array of subviews to view.
     ///
     /// - Parameter subviews: array of subviews to add to self.
